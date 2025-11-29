@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    margin: 0%;
+    background-color: #1E293B;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 50px;
+    padding: 60px;
+    background-color: #334155;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.grid:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+}
+.item{
+    padding: 30px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.item:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+}
+.btn{
+    position: fixed;
+    top:0;
+    right:0%;
+    left: 0%;
+    background-color:#0F172A;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px ;
+}
+.ti{
+    position: fixed;
+    top: 0%;
+    padding-left: 300px;
+    color:antiquewhite;
+}
+button{
+    background: #3B82F6;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+button:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+}
+.item img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px; 
+}
